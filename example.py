@@ -13,7 +13,11 @@ import argparse
 import datetime
 import pyiqfeed as iq
 import time
-from localconfig.passwords import dtn_product_id, dtn_login, dtn_password
+
+import os
+dtn_product_id = os.environ['DTN_PRODUCT_ID']
+dtn_login = os.environ['DTN_ID']
+dtn_password = os.environ['DTN_PW']
 
 
 def launch_service():
