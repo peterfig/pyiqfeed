@@ -88,6 +88,11 @@ easy-to-use python script that reproduces the bug and an explanation of
 the bug will be ignored. Pull requests with bug-fixes and enhancements
 are greatly encouraged and appreciated.
 
+
+#### Windows notes
+The `pypiwin32`Python module may be required when installing in Windows virtualenvs.
+
+#### Pull requests
 For all pull requests please ensure the following:
 
 1. Ensure all code has been run through at least some of the various
